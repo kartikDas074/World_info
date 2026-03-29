@@ -1,0 +1,35 @@
+.country{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 1px solid blueviolet;
+    gap:26px;
+    border-radius: 8px;
+}
+
+.btn{
+    padding: 8px 8px;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.imgme {
+    height: 200px;
+    width: 100%; /* ekhon sob image container er soman width nibe */
+    max-width: 400px; 
+    object-fit: cover; /* Eti image-ke stretch hote dibe na, borong box-er moddhe fit korbe */
+    border-radius: 4px; /* Optional: dekhte sundor lage */
+}
+
+.countryV{
+    border-top: 5px solid green;
+}
+.countryN{
+    border-top:5px solid blue;
+}
